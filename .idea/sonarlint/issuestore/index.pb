@@ -1,0 +1,21 @@
+
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+S
+#src/webapp/WEB-INF/pages/index.html,c/d/cdc3599f1e9a5184dd1944b4ab31b6016e63a46f
+a
+1src/main/java/web/controller/HelloController.java,e/f/ef6e5829e13a1b2210c10163cf32eb47fd077f01
+W
+'src/main/java/web/config/WebConfig.java,3/e/3efd7d6e4f4347a5e7aa33a6e6490dc8c1f9ed56
+U
+%src/main/java/web/config/AppInit.java,8/0/80eab4da9923cdcbe5b2defa94177731b9a847e5
+R
+"src/webapp/WEB-INF/pages/cars.html,4/8/4859eab7b0e83c9c499abc9541b15346ba2bf6b5
+`
+0src/main/java/web/controller/CarsController.java,7/4/741d593eef5ed7265e1734e7958f0f778ba8404a
+P
+ src/main/java/web/model/Car.java,1/d/1da8a68372373d63d8e5bad0a446b1af9039bb32
+Y
+)src/main/java/web/servise/CarServise.java,6/9/6927fa79fc821c324b527ed7a8cc5203b06403cb
+]
+-src/main/java/web/servise/CarServiseImpl.java,2/a/2a267ae7dd5f8dbc214efc0b2a9eec1c29aaba63
