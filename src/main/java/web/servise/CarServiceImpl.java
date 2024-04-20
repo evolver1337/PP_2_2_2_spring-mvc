@@ -19,6 +19,10 @@ public class CarServiceImpl implements CarService {
         carList.add(new Car("Volkswagen", "green", 2013));
     }
     @Override
+    public List<Car> getAllCars(){
+        return carList;
+    }
+    @Override
     public List<Car> getCars(int count) {
         if (count >= carList.size()) {
             return carList;
