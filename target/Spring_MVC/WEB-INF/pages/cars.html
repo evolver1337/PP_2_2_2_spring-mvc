@@ -11,10 +11,10 @@
         <th>Color</th>
         <th>Year</th>
     </tr>
-    <tr th:each="car : ${cars}">
-        <td th:text="${car.getModel()}"></td>
-        <td th:text="${car.getColor()}"></td>
-        <td th:text="${car.getYear()}"></td>
+    <tr th:each="cars : ${cars}">
+        <td th:text="${cars.getModel()}"></td>
+        <td th:text="${cars.getColor()}"></td>
+        <td th:text="${cars.getYear()}"></td>
     </tr>
 </table>
 </body>

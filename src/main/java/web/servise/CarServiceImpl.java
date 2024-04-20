@@ -7,15 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CarServiseImpl implements CarServise {
+public class CarServiceImpl implements CarService {
 
     private List<Car> carList = new ArrayList<>();
 
-    public CarServiseImpl(){
+    public CarServiceImpl(){
         carList.add(new Car("Mercedes", "black", 2017));
-        carList.add(new Car("BMW", "blue", 2015));
-        carList.add(new Car("AUDI", "white", 2012));
-        carList.add(new Car("Porshe", "red", 2021));
+        carList.add(new Car("BMW", "white", 2015));
+        carList.add(new Car("AUDI", "red", 2012));
+        carList.add(new Car("Peugeot", "blue", 2017));
         carList.add(new Car("Volkswagen", "green", 2013));
     }
     @Override

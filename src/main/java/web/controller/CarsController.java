@@ -6,7 +6,7 @@ import web.model.Car;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import web.servise.CarServiseImpl;
+import web.servise.CarServiceImpl;
 
 import java.util.List;
 
@@ -14,11 +14,11 @@ import java.util.List;
 public class CarsController {
 
     @Autowired
-    private CarServiseImpl carServise;
+    private CarServiceImpl carService;
 
     @GetMapping("/cars")
     public String getCars(@RequestParam(value = "count") int count, Model model) {
-        List<Car> cars = carServise.getCars(count);
+        List<Car> cars = carService.getCars(count);
         model.addAttribute("cars", cars);
         return "cars";
     }
